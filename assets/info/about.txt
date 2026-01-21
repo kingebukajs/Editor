@@ -1,0 +1,9 @@
+﻿Project name: code editor 
+Project version: V4.1
+
+
+Author name: King Ebuka 👑 
+ 
+Can now write external Css. 
+Can now write js
+stores code in localStorage 

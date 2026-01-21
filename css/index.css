@@ -1,0 +1,73 @@
+/*Code editor v4.1*/
+
+@font-face{
+  font-family: 'font';
+  src: url('../assets/fonts/font.ttf') format('truetype');
+}
+
+body{
+  background: black;
+}
+
+#output {
+ height: 47vh;
+ overflow: hidden;
+ width: 90vw;
+ background-color: #fff;
+ position: absolute;
+ transform: translateX(-50%);
+ top: 2px;
+ left: 50%;
+ }
+ 
+.inputsection {
+  background-color: #000;
+  color: #00ff00;
+  font-family: monospace;
+  margin-top: 4px;
+  margin-left: 4px;
+  width: 90vw;
+  height: 40vh;
+  position: absolute;
+  transform: translateX(-50%);
+  top: 55vh;
+  left: 50%;
+  caret-color: blue;
+  }
+  
+#buttoncont{
+  position: absolute;
+  top: 48vh;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  background: rgba(200, 200, 200, 1);;
+}
+.buttons{
+  width: 10vw;
+  height: 30px;
+  font-size: 16px;
+  font-family: Arial Sans-Serif Monospace
+  border-style: none;
+  border-radius: 12px;
+  background: grey;
+}
+select{
+  width: 10vw;
+  height: 30px;
+  font-size: 16px;
+  font-family: Arial Sans-Serif Monospace
+  border-style: none;
+  border-radius: 12px;
+  background: grey;
+  background: rgba(200, 200, 200, 1);
+}
+  
+#css{
+  display: none;
+}
+#js{
+display: none;
+}

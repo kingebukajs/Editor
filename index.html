@@ -1,0 +1,40 @@
+<!--Code editor V3.1-->
+
+<!DOCTYPE html>
+<html lang="en" onload="templa()">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="assets/icons/icon.png" type="image/png">
+  <link rel="stylesheet" href="css/index.css">
+  <title> Code editor v3.1 by 👑King Ebuka👑</title>
+</head>
+<body onload="loadCode()">
+  <iframe id="output"></iframe>
+  <div id="buttoncont">
+    <button class="buttons" id="hbtn" onclick="show('htmlinp');">Html</button>
+    <button class="buttons" id="cbtn" onclick="show('cssinp')">Css</button> 
+    <button class="buttons" id="jbtn" onclick="show('jsinp')">Js</button>
+    <select id="select" onchange="snip()">
+      <option value="">--tags---</option>
+      <option value="<div> </div>">div</option>
+      <option value="<input/>">input</option>
+      <option value="<button> </button>">button</option>
+      <option value="<span> </span>"> span </option>
+      <option value="<img/>">img</option>
+      <option value=""></option>
+      <option value=""></option>
+      <option value=""></option>
+      <option value=""></option>
+      <option value=""></option>
+      <option value=""></option>
+      <option value=""></option>
+    </select>
+    </div>
+  <textarea id="html" class="inputsection" rows="8" cols="40"></textarea>
+  <textarea id="css" class="inputsection" rows="8" cols="40"></textarea>
+  <textarea id="js" class="inputsection" rows="8" cols="40"></textarea>
+
+  <script src="js/index.js"></script>
+</body>
+</html>
