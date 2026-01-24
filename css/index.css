@@ -1,4 +1,4 @@
-/*Code editor v4.1*/
+/*Code editor v4.2*/
 
 @font-face{
   font-family: 'font';
@@ -32,7 +32,7 @@ body{
   transform: translateX(-50%);
   top: 55vh;
   left: 50%;
-  caret-color: blue;
+  caret-color: red;
   }
   
 #buttoncont{
@@ -43,7 +43,18 @@ body{
   width: 90vw;
   display: flex;
   justify-content: space-between;
-  background: rgba(200, 200, 200, 1);;
+  background: rgba(200, 200, 200, 1);
+}
+#functionButtons{
+  position: fixed;
+  bottom: 0vh;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90vw;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  background: rgba(200, 200, 200, 1);
 }
 .buttons{
   width: 10vw;
@@ -54,15 +65,27 @@ body{
   border-radius: 12px;
   background: grey;
 }
-select{
-  width: 10vw;
+.caretMover{
+  width: 30vw;
   height: 30px;
   font-size: 16px;
   font-family: Arial Sans-Serif Monospace
   border-style: none;
   border-radius: 12px;
   background: grey;
+}
+.selectss{
+  width: 10vw;
+  height: 30px;
+  font-size: 20px;
+  font-family: Arial Sans-Serif Monospace
+  border-style: none;
+  border-radius: 12px;
+  background: grey;
   background: rgba(200, 200, 200, 1);
+}
+#cselect{
+  display: none;
 }
   
 #css{
