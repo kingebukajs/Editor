@@ -10,7 +10,7 @@ body{
 }
 
 #output {
- height: 47vh;
+ height: 47dvh;
  overflow: hidden;
  width: 90vw;
  background-color: #fff;
@@ -27,7 +27,7 @@ body{
   margin-top: 4px;
   margin-left: 4px;
   width: 90vw;
-  height: 40vh;
+  height: 40dvh;
   position: absolute;
   transform: translateX(-50%);
   top: 55vh;
