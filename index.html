@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <!-- Code Editor V5.1 -->
+=======
+<!-- Code Editor V4.2 -->
+>>>>>>> 7eff275bb82c027bd7d1d0465139541b3808e3c8
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,22 +10,38 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<<<<<<< HEAD
   <title>KingCode – Online HTML, CSS & JavaScript Editor v5.1</title>
 
   <meta name="description" content="KingCode by Ebuka Francis is a fast and free online code editor for HTML, CSS and JavaScript. Write, run and test code directly in your browser. Version 5.1">
   
   <meta name="keywords" content="KingCode, king code, kingcode, king ebuka code editor, ebuka francis code editor, king ebuka online code editor, code editor by king ebuka, ebuka francis online editor, online code editor, best online code editor, free code editor online, html css javascript editor, live code editor, web based code editor, browser code editor, frontend code editor, coding playground online, developer tools, king Ebuka, Ebuka Francis,">
+=======
+  <title>King Ebuka Code Editor – Online HTML, CSS & JavaScript Editor v4.2</title>
+
+  <meta name="description" content="King Ebuka Code Editor by Ebuka Francis is a fast and free online code editor for HTML, CSS and JavaScript. Write, run and test code directly in your browser. Version 4.2">
+  
+  <meta name="keywords" content="king ebuka code editor, ebuka francis code editor, king ebuka online code editor, code editor by king ebuka, ebuka francis online editor, online code editor, best online code editor, free code editor online, html css javascript editor, live code editor, web based code editor, browser code editor, frontend code editor, coding playground online, developer tools, king Ebuka, Ebuka Francis,">
+>>>>>>> 7eff275bb82c027bd7d1d0465139541b3808e3c8
 
   <meta name="author" content="King Ebuka (Ebuka Francis)">
   <meta name="robots" content="index, follow">
   <meta name="copyright" content="© 2026 King Ebuka">
 
   <!-- Open Graph -->
+<<<<<<< HEAD
   <meta property="og:title" content=" KingCode v5.1">
   <meta property="og:description" content="Online HTML, CSS & JavaScript code editor created by King Ebuka (Ebuka Francis).">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://kingebukajs.github.io/Editor/">
   <meta property="og:image" content="https://kingebukajs.github.io/Editor/assets/images/logo.jpg">
+=======
+  <meta property="og:title" content="King Ebuka Code Editor v4.2">
+  <meta property="og:description" content="Online HTML, CSS & JavaScript code editor created by King Ebuka (Ebuka Francis).">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kingebukajs.github.io/Editor/">
+  <meta property="og:image" content="https://kingebukajs.github.io/Images/king.jpg">
+>>>>>>> 7eff275bb82c027bd7d1d0465139541b3808e3c8
   <meta property="og:image:width" content="1536">
   <meta property="og:image:height" content="1024">
 
@@ -31,6 +51,7 @@
   <script>
     const $ = (s) => document.querySelector(s);
   </script>
+<<<<<<< HEAD
   <script src="js/ebukatoast.js"></script>
 </head>
 <body onload="verif(); loadCode()">
@@ -73,6 +94,16 @@
      <li><button class="buttons" id="jbtn" onclick="show('jsinp')">Js</button></li>
      
    <li style="float:right;"><select id="hselect" style="float:right;" class="selectss" onchange="snip('html')">
+=======
+</head>
+<body onload="loadCode()">
+  <iframe id="output"></iframe>
+  <div id="buttoncont">
+    <button class="buttons" id="hbtn" onclick="show('htmlinp');">Html</button>
+    <button class="buttons" id="cbtn" onclick="show('cssinp')">Css</button> 
+    <button class="buttons" id="jbtn" onclick="show('jsinp')">Js</button>
+    <select id="hselect" class="selectss" onchange="snip('html')">
+>>>>>>> 7eff275bb82c027bd7d1d0465139541b3808e3c8
   <option value="">-- tags ---</option>
   <option value="<video controls></video>">video</option>
   <option value="<fieldset></fieldset>">fieldset</option>
@@ -545,6 +576,7 @@
   <option value="writing-mode">writing-mode</option>
   <option value="z-index">z-index</option>
   <option value="zoom">zoom</option>
+<<<<<<< HEAD
 </select></li>
      
     </ul>
@@ -552,16 +584,26 @@
  </div>
   <iframe id="output" name="KingCode" title="KingCode Preview" src="" sandbox="allow-downloads allow-forms allow-modals allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-presentation allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="accelerometer *; bluetooth *; camera *; clipboard-read *; clipboard-write *; display-capture *; encrypted-media *; geolocation *; gyroscope *; language-detector *; language-model *; local-network-access *; microphone *; midi *; rewriter *; serial *; summarizer *; translator *; web-share *; writer *; xr-spatial-tracking *" scrolling="auto" allowTransparency="true" allowpaymentrequest="true" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer"></iframe>
   
+=======
+</select>
+    </div>
+>>>>>>> 7eff275bb82c027bd7d1d0465139541b3808e3c8
   <textarea id="html" class="inputsection" onfocus="window.currentInput = this; $('#cselect').style.display='none'; $('#hselect').style.display='block';" rows="8" cols="40"></textarea>
   
   <textarea id="css" class="inputsection" onfocus="window.currentInput = this; $('.selectss').style.display='none'; $('#cselect').style.display='block';" rows="8" cols="40"></textarea>
   
   <textarea id="js" class="inputsection" onfocus="window.currentInput = this; $('.selectss').style.display='none'; $('#cselect').style.display='none';" rows="8" cols="40"></textarea>
   
+<<<<<<< HEAD
  <!--<div id="functionButtons"> 
    <button id="btnLeft" class="caretMover" onclick="moveCaret('left')">𝈶</button>
    <button id="btnRight" class="caretMover" onclick="moveCaret('right')">𝈷</button>
  </div>-->
+=======
+ <div id="functionButtons"> 
+   <button id="btnLeft" class="caretMover" onclick="moveCaret('left')">𝈶</button>
+   <button id="btnRight" class="caretMover" onclick="moveCaret('right')">𝈷</button>
+>>>>>>> 7eff275bb82c027bd7d1d0465139541b3808e3c8
  </div>
   <script src="js/index.js"></script>
 </body>

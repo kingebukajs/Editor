@@ -1,10 +1,19 @@
+<<<<<<< HEAD
 Project name: code editor 
 Project version: V4.2
+=======
+﻿Project name: code editor 
+Project version: V4.1
+>>>>>>> 7eff275bb82c027bd7d1d0465139541b3808e3c8
 
 
 Author name: King Ebuka 👑 
  
 Can now write external Css. 
 Can now write js
+<<<<<<< HEAD
 stores code in localStorage 
 snippets 
+=======
+stores code in localStorage 
+>>>>>>> 7eff275bb82c027bd7d1d0465139541b3808e3c8

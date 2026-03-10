@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 /*Project name v5.1*/
 console.log("##Code Editor v5.1##");
 console.log("👑 King Ebuka 👑");
 
 /**Debounce function**/
+=======
+/*Project name v4.2*/
+console.log("##Code Editor v4.2##");
+console.log("👑 King Ebuka 👑");
+
+
+>>>>>>> 7eff275bb82c027bd7d1d0465139541b3808e3c8
 function debounce(fn, delay) {
     let timer;
     return function(...args) {
@@ -10,6 +18,7 @@ function debounce(fn, delay) {
       timer = setTimeout(() => fn.apply(this, args), delay);
     };
 };
+<<<<<<< HEAD
 
 function pro(text) {
          return new Promise(function(resolve) {
@@ -208,6 +217,8 @@ function openEditor() {
 }
 
 /**load saved code**/
+=======
+>>>>>>> 7eff275bb82c027bd7d1d0465139541b3808e3c8
 function loadCode() {
   let template = `<!DOCTYPE html>
 <html lang="en">
@@ -240,9 +251,12 @@ function loadCode() {
   updatePreview();
   }
 }
+<<<<<<< HEAD
 
 
 /**assign variables**/
+=======
+>>>>>>> 7eff275bb82c027bd7d1d0465139541b3808e3c8
     let html = document.getElementById("html");
     let css = document.getElementById("css");
     let js = document.getElementById("js");
@@ -255,7 +269,10 @@ function loadCode() {
     let hsnippets = document.getElementById("hselect");
     let csnippets = document.getElementById("cselect");
 
+<<<<<<< HEAD
 /**update code**/
+=======
+>>>>>>> 7eff275bb82c027bd7d1d0465139541b3808e3c8
 function updatePreview() {
     const doc = output.contentDocument || output.contentWindow.document;
 
@@ -285,8 +302,11 @@ function updatePreview() {
   input.addEventListener('input', debouncedUpdate);
 });
 
+<<<<<<< HEAD
 
 /**show or hide inputs**/
+=======
+>>>>>>> 7eff275bb82c027bd7d1d0465139541b3808e3c8
 function show(inp) {
   king = inp;
   if (king == 'htmlinp') {
@@ -294,10 +314,17 @@ function show(inp) {
   input.style.display = "none"
 });
    buttons.forEach(button => {
+<<<<<<< HEAD
      button.style.borderTopColor = "#2e2e2e"
    });
     html.style.display = "block";
     $('#hbtn').style.borderTopColor = '#e3cc00';
+=======
+     button.style.background = "grey"
+   });
+    html.style.display = "block";
+    $('#hbtn').style.background = '#ed9a5a';
+>>>>>>> 7eff275bb82c027bd7d1d0465139541b3808e3c8
     html.focus();
   }
   
@@ -307,10 +334,17 @@ function show(inp) {
 });
 
    buttons.forEach(button => {
+<<<<<<< HEAD
      button.style.borderTopColor = "#2e2e2e"
    });
     css.style.display = "block";
     $('#cbtn').style.borderTopColor = '#e3cc00';
+=======
+     button.style.background = "grey"
+   });
+    css.style.display = "block";
+    $('#cbtn').style.background = '#ed9a5a';
+>>>>>>> 7eff275bb82c027bd7d1d0465139541b3808e3c8
     css.focus();
   }
   
@@ -320,15 +354,25 @@ function show(inp) {
 });
 
    buttons.forEach(button => {
+<<<<<<< HEAD
      button.style.borderTopColor = "#2e2e2e"
    });
     js.style.display = "block";
     $('#jbtn').style.borderTopColor = '#e3cc00';
+=======
+     button.style.background = "grey"
+   });
+    js.style.display = "block";
+    $('#jbtn').style.background = '#ed9a5a';
+>>>>>>> 7eff275bb82c027bd7d1d0465139541b3808e3c8
     js.focus();
   }
 }
 
+<<<<<<< HEAD
 /**snippets**/
+=======
+>>>>>>> 7eff275bb82c027bd7d1d0465139541b3808e3c8
 function snip(txtarea) {
   if (txtarea == 'html') {
   let pos = html.selectionStart;
@@ -348,8 +392,11 @@ function snip(txtarea) {
 }
 }
 
+<<<<<<< HEAD
 
 /**move caret**/
+=======
+>>>>>>> 7eff275bb82c027bd7d1d0465139541b3808e3c8
 function moveCaret(destination) {
   let kingEdit = window.currentInput;
   let currentPos = kingEdit.selectionStart;
@@ -369,8 +416,11 @@ function moveCaret(destination) {
     kingEdit.focus();
   }
 }
+<<<<<<< HEAD
 
 /**  **/
 function func(){
   
 }
+=======
+>>>>>>> 7eff275bb82c027bd7d1d0465139541b3808e3c8
