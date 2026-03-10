@@ -1,6 +1,5 @@
-/*Code editor v4.2*/
+/*Code editor v5.1*/
 
-<<<<<<< HEAD
 /*@font-face{
   font-family: 'font';
   src: url('../assets/fonts/font.ttf') format('truetype');
@@ -205,32 +204,12 @@ body {
  position: absolute;
  transform: translateX(-50%);
  top: 80px;
-=======
-@font-face{
-  font-family: 'font';
-  src: url('../assets/fonts/font.ttf') format('truetype');
-}
-
-body{
-  background: black;
-}
-
-#output {
- height: 47dvh;
- overflow: hidden;
- width: 90vw;
- background-color: #fff;
- position: absolute;
- transform: translateX(-50%);
- top: 2px;
->>>>>>> 7eff275bb82c027bd7d1d0465139541b3808e3c8
  left: 50%;
  }
  
 .inputsection {
   background-color: #000;
   color: #00ff00;
-<<<<<<< HEAD
   font-family: Consolas, Monaco, monospace;
   scroll-behavior: smooth;
   margin-top: 4px;
@@ -248,33 +227,6 @@ body{
 /**#fuctionButtons{
   position: fixed;
   bottom: 20vh;
-=======
-  font-family: monospace;
-  margin-top: 4px;
-  margin-left: 4px;
-  width: 90vw;
-  height: 40dvh;
-  position: absolute;
-  transform: translateX(-50%);
-  top: 55vh;
-  left: 50%;
-  caret-color: red;
-  }
-  
-#buttoncont{
-  position: absolute;
-  top: 48vh;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 90vw;
-  display: flex;
-  justify-content: space-between;
-  background: rgba(200, 200, 200, 1);
-}
-#functionButtons{
-  position: fixed;
-  bottom: 0vh;
->>>>>>> 7eff275bb82c027bd7d1d0465139541b3808e3c8
   left: 50%;
   transform: translateX(-50%);
   width: 90vw;
@@ -283,19 +235,7 @@ body{
   justify-content: space-between;
   background: rgba(200, 200, 200, 1);
 }
-<<<<<<< HEAD
 
-=======
-.buttons{
-  width: 10vw;
-  height: 30px;
-  font-size: 16px;
-  font-family: Arial Sans-Serif Monospace
-  border-style: none;
-  border-radius: 12px;
-  background: grey;
-}
->>>>>>> 7eff275bb82c027bd7d1d0465139541b3808e3c8
 .caretMover{
   width: 30vw;
   height: 30px;
@@ -304,22 +244,8 @@ body{
   border-style: none;
   border-radius: 12px;
   background: grey;
-<<<<<<< HEAD
 }**/
 
-=======
-}
-.selectss{
-  width: 10vw;
-  height: 30px;
-  font-size: 20px;
-  font-family: Arial Sans-Serif Monospace
-  border-style: none;
-  border-radius: 12px;
-  background: grey;
-  background: rgba(200, 200, 200, 1);
-}
->>>>>>> 7eff275bb82c027bd7d1d0465139541b3808e3c8
 #cselect{
   display: none;
 }
